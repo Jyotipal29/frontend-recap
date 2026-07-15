@@ -1,0 +1,24 @@
+
+.grid-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.grid-item{
+    display: grid; 
+    grid-template-columns: repeat(6, 1fr);
+width: 400px;
+height:400px;
+
+}
+
+.card{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
