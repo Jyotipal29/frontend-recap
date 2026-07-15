@@ -1,0 +1,24 @@
+.children-container{
+    margin-left: 20px;
+}
+
+.file-name{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.file-container{
+    display: flex; 
+    flex-direction: column;
+    padding: 5px;
+    background-color: #f5f5f5;
+}
+.folder-button{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.file-button{
+    margin-left: 10px;
+    cursor: pointer;
+}
+    

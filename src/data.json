@@ -1,0 +1,37 @@
+{
+    "name":"File explorer",
+    "type":"folder",
+    "children":[
+        {
+            "name":"node_modules",
+            "type":"folder",
+            "children":[]
+        },
+        {
+            "name":"src",
+            "type":"folder",
+            "children":[
+                {
+                    "name":"components",
+                    "type":"folder",
+                    "children":[
+                        {
+                            "name":"fileexplorer",
+                            "type":"folder",
+                            "children":[
+                                {
+                                    "name":"file.jsx",
+                                    "type":"file"
+                                },
+                                {
+                                    "name":"data.json",
+                                    "type":"file"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
