@@ -1,0 +1,6 @@
+1. generate a an array of length 18 or given , make a grid out of it 
+2. each item of the array should be an object with index number and ifflipped varibale initially false 
+3. not set ifflipped to true on onlclick 
+4 introduce 2 more states -< lock and flipped cards 
+5. after flipping two cards lock it for 3 sec 
+6. inside the settimeout of 3 sec check if the the two flipped numbers are same if  not make there isflipped varibale flase and if its same then make lock flase and empty the flipped array this should happen inside an useeffect
